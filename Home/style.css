@@ -11,8 +11,26 @@ body {
 
 /* Extra small devices (phones, less than 576px) */
 @media (max-width: 575.98px) {
-    .container {
-        background-color: lightblue;
+    header {
+        /* background-color: lightblue; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10px;
+    }
+    header .logo img {
+        width: 120px;
+    }
+    header nav ul {
+        list-style: none;
+        display: flex;
+    }
+    header nav ul li {
+        padding: 0 10px;
+    }
+    header nav ul li i {
+        font-size: 25px;
+        /* font-weight: bolder; */
     }
 }
 
