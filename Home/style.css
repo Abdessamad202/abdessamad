@@ -20,7 +20,7 @@ i {
 /* Extra small devices (phones, less than 576px) */
 @media (max-width: 575.98px) {
     header , section {
-        padding: 20px 10px;
+        padding: 10px 10px 30px 10px;
     }
     .mainheader {
         /* background-color: lightblue; */
@@ -171,6 +171,102 @@ i {
     .home-section .img  img{
         width: 100%;
     }
+    /* .full {
+        padding: ;
+    } */
+    .full .swiper {
+        position: relative;
+    }
+    .full .swiper .swiper-wrapper .swiper-slide {
+        display: flex;
+        align-items: center;        
+        flex-direction: column;
+        padding: 10px;
+        border: 1px solid gray;
+        border-radius: 10px;
+        /* width: 100%; */
+    }
+    /* .swiper-slide .img {
+        width: 47.5%;
+    } */
+    .full .swiper .swiper-wrapper .swiper-slide img {
+        /* height: 20px; */
+        width: 100%;
+        border-radius: 10px;
+    }
+    .full .swiper .swiper-wrapper .swiper-slide .title{
+        padding: 10px 0;
+        text-align: center;
+        font-weight: 600;
+    }
+    .full .swiper .title {
+        /* width: 20px; */
+        padding: 15px 0;
+        /* justify-content: center; */
+    }
+    .full .swiper .black , .full  .title .green {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .full .swiper .title .green {
+        color: rgb(12, 126, 126);
+    }
+    .full .swiper .swiper-button-prev::after,.full .swiper .swiper-button-next::after {
+        position: absolute;
+        top: var(--swiper-navigation-top-offset, 60%)
+    }
+    /* .full {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .full .pcategories {
+        display: flex;
+        justify-content: space-between;
+    }
+    .full .pcategories .title .black , .full  .title .green {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .full .pcategories .title .green {
+        color: rgb(12, 126, 126);
+    }
+    .full .pcategories .rl {
+        display: flex;
+        gap: 10px;
+    }
+    .full .pcategories .rl i {
+        font-size: 30px;
+        color: rgb(12, 126, 126);
+        border-radius: 50%;
+        background-color: rgba(0, 121, 121, 0.144);
+    }
+    .full .swiper{
+        display: flex;
+        overflow: hidden;
+        flex-wrap: nowrap;
+        gap: 20px;
+    }
+    .full .swiper .Categorie {
+        display: flex;
+        align-items: center;        
+        flex-direction: column;
+        padding: 10px;
+        border: 1px solid gray;
+        border-radius: 10px;
+        
+    }
+    .full .swiper .Categorie .title{
+        padding: 10px 0;
+        font-weight: 600;
+    }
+    .full .swiper .Categorie{
+        width: 90%;
+    }
+    
+    .full .swiper .Categorie .img img {
+        width: 100%;
+    } */
 }
 
 /* Small devices (phones, 576px and up) */
